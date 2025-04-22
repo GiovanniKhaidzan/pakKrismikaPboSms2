@@ -10,19 +10,25 @@ package latihan1;
  * @author GIOVANI DAVINCI
  */
 public class Mahasiswa {
+    //properties
     String namaMhs;
     String nim;
     String kelas;
     String programStudi;
     String angkatan;
     final String UNIVERSITAS = "UNIKOM";
-            
-    void tambahDataMhs(String ParamNama, String ParamNim, String ParamKelas, String ParamStudi, String ParamAngkatan){
-        namaMhs = ParamNama;
-        nim = ParamNim;
-        kelas = ParamKelas;
-        programStudi = ParamStudi;
-        angkatan = ParamAngkatan;
+    
+    Mahasiswa(){
+        //construktor
+        System.out.println("text ini akan tampil saat program tampil di terminal");
+    }
+    //method
+    void tambahDataMhs(String namaMhs, String nim, String kelas, String studi, String angkatan){
+        this.namaMhs = namaMhs;
+        this.nim = nim;
+        this.kelas = kelas;
+        this.programStudi = studi;
+        this.angkatan = angkatan;
     }
     
     void tampilDataMhs(){

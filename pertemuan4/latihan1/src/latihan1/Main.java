@@ -15,16 +15,16 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //object    
         // TODO code application logic here
         Mahasiswa mhs1 = new Mahasiswa();
-        Mahasiswa mhs2 = new Mahasiswa();
-
         System.out.println("Tampil data mahasiswa ke 1");
         mhs1.tambahDataMhs("Giovanni Khaidzan", "10124193", "if-5", "Teknik komputer", "2024");
         mhs1.tampilDataMhs();
         
         System.out.println("\n");
         
+        Mahasiswa mhs2 = new Mahasiswa();
         System.out.println("Tampil data mahasiswa ke 2");
         mhs2.tambahDataMhs("Izal julian", "10124197", "if-5", "Teknik komputer", "2024");
         mhs2.tampilDataMhs();
