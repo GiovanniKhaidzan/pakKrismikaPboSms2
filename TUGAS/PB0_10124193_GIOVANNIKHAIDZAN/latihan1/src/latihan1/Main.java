@@ -5,10 +5,6 @@
  */
 package latihan1;
 
-/**
- *
- * @author GIOVANI DAVINCI
- */
 public class Main {
 
     /**

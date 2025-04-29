@@ -5,10 +5,7 @@
  */
 package latihan3;
 
-/**
- *
- * @author GIOVANI DAVINCI
- */
+
 public class hitungLuasDanKeliling {
     int sisi;
     int kelPersegi;

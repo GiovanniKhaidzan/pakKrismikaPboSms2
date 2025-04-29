@@ -5,10 +5,6 @@
  */
 package latihan4;
 
-/**
- *
- * @author GIOVANI DAVINCI
- */
 public class tabungan {
     double saldoAwal;
     double saldoTarget;

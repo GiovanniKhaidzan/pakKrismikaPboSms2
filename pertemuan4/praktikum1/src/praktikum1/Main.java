@@ -1,20 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package praktikum1;
+import praktikum1.buku.Buku;
+import praktikum1.author.Author;
 
 /**
- *
+ *  
  * @author GIOVANI DAVINCI
  */
 public class Main {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        //OBJECT
-        Mahasiswa Mhs1 = new Mahasiswa(); 
-        Mhs1.tambahDataMhs("Giovanni khaidzan", "10124193", "if-5");
-        Mhs1.tampilDataMhs();
-    }  
+        // TODO code application logic here
+        Buku buku = new Buku();
+        buku.setIsbn("89-09-08");
+        buku.setJudulBuku("Boruto blue fortex");
+        buku.setAuthor("masasi kisimoto");
+        buku.setHarga(10000);
+        
+        
+        System.out.println("TAMPIL BUKU KE 1");
+        buku.tampilBuku();
+        Author author = new Author();   
+    }
+    
 }

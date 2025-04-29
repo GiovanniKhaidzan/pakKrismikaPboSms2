@@ -5,10 +5,7 @@
  */
 package latihan1;
 
-/**
- *
- * @author GIOVANI DAVINCI
- */
+
 public class Mahasiswa {
     //properties
     String namaMhs;

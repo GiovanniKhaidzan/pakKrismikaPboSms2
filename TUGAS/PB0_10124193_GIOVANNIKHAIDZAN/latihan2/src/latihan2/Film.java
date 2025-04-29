@@ -5,10 +5,6 @@
  */
 package latihan2;
 
-/**
- *
- * @author GIOVANI DAVINCI
- */
 
 //
 public class Film {
