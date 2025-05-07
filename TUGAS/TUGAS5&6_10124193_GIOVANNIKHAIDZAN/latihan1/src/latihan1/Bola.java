@@ -19,13 +19,12 @@ public class Bola extends BangunDatar {
     
     @Override 
     public double hitungVolume(){
-        double pi = 3.141592653589793;
         double rCubed = jarijariBola * jarijariBola * jarijariBola; 
-        return (4.0 / 3.0) * pi * rCubed;
+        return (4.0 / 3.0) * super.phi * rCubed;
     }
     @Override 
     public void tampilVolume(){
-        System.out.println("TAMPIL BOLA");
+        System.out.println("TAMPIL VOLUME BOLA");
         System.out.println("Jari Jari Bola =  "+this.jarijariBola);
         
     }

@@ -12,17 +12,19 @@ package latihan1;
 public class Balok extends BangunDatar{
     private final double panjang;
     private final double lebar;
+    private final double tinggi;
 
     
-    public Balok( double panjang,double lebar ){
+    public Balok( double panjang,double lebar, double tinggi ){
         this.panjang = panjang;   
         this.lebar = lebar;
+        this.tinggi = tinggi;
         setNama("BALOK");
     }
     
     @Override
     public double hitungVolume(){
-       return panjang * lebar ;
+       return panjang * lebar * tinggi ;
     }
     
     @Override
@@ -30,6 +32,8 @@ public class Balok extends BangunDatar{
         System.out.println("TAMPIL VOLUME BALOK");
         System.out.println("Panjang Balok   = "+this.panjang);
         System.out.println("Lebar Balok     = "+this.lebar);
+        System.out.println("Tinggi Balok    = "+this.tinggi);
+
     }
     
 }

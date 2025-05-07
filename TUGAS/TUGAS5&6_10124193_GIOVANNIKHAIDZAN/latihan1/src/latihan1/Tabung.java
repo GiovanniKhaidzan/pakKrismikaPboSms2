@@ -21,8 +21,8 @@ public class Tabung extends BangunDatar{
     @Override
     
     public double hitungVolume(){
-        double phi = 3.14;
-        return phi * jariJariTabung * jariJariTabung * tinggiTabung; 
+        
+        return super.phi * jariJariTabung * jariJariTabung * tinggiTabung; 
     }
     
     @Override

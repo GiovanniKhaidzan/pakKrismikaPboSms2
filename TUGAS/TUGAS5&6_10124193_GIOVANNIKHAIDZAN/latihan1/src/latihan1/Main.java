@@ -15,7 +15,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Balok balok = new Balok(10,5);
+        Balok balok = new Balok(10,5,5);
         Tabung tabung = new Tabung(10, 8);
         Bola bola = new Bola(10);
         

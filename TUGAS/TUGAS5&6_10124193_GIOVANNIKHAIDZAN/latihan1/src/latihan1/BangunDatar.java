@@ -11,6 +11,7 @@ package latihan1;
  */
 public class BangunDatar {
     private String nama;
+    protected double phi = 3.14;
     
     public String getNama() {
         return nama;
